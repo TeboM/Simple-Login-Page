@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Login</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+
+    <!--Login Page Content-->
+    <div id="container">
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <p><a href="#">Forgot your password?</a></p>
+            <input type="text" id="password" name="password">
+
+            <div id="lower">
+                <input type="checkbox"><label class="check" for="checkbox"></label>
+                <input type="submit" value="Login">
+            </div>
+
+        </form>
+    </div>
 </body>
 </html>
